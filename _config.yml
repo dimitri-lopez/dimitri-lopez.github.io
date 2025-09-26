@@ -1,3 +1,8 @@
-theme: jekyll-theme-minimal
-title: dimitril
-description: PhD student at the Network Science Institute, Computational Epidemiology
+source:      .
+destination: ./_site
+includes:    ./_includes
+baseurl: /msaveski
+
+collections:
+  projects:
+    output: true
