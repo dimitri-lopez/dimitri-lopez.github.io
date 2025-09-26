@@ -1,5 +1,7 @@
-* Martin Saveski's Website
-** Updates guide
+* Dimitri Lopez's Website
+This website was built based off of [[https://faculty.washington.edu/msaveski/][Martin Saveski's]] website. See the bottom of his page if you wish to replicate it.
+
+** Update guide
 Change one of the files in =_data=, unless you are changing the look of
 the website.
 
@@ -8,27 +10,6 @@ Test changes with:
 #+begin_src bash
 jekyll serve
 #+end_src
-Push to the ML web directory:
-
-#+begin_src bash
-rm -rf public_html
-mkdir public_html
-#+end_src
-
-
-#+begin_src bash
-./__deploy.sh
-#+end_src
-
-More info on the
-[[http://wiki.media.mit.edu/view/Necsys/WebPagePersonal][Media Lab
-wiki]].
-
-*Stanford links* - Use fetch! -
-[[https://uit.stanford.edu/service/web/centralhosting/howto_user][Basic
-WWW for Individual Users]] -
-[[https://uit.stanford.edu/service/afs/file-transfer/macintosh][AFS File
-Transfer]]
 
 ** External Libraries
 - Framework: [[http://jekyllrb.com/][Jekyll]]
