@@ -1,7 +1,7 @@
 source:      .
 destination: ./_site
 includes:    ./_includes
-baseurl: /_site
+baseurl: 
 
 collections:
   projects:
